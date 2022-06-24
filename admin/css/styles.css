@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+    outline: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.admin-content {
+    display: flex;
+}
+
+.admin-content-left {
+    position: fixed;
+    width: 17%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ddd;
+    padding: 30px 6px 0 6px;
+    background-color: #263238;
+    box-shadow: 0px 1px 5px #000000;
+    
+}
+
+.admin-content-left a,
+.admin-content-left i {
+    color: rgba(215, 219, 223, 0.9)
+}
+
+.admin-content-left > ul > li > a {
+    font-weight: bold;
+}
+
+.admin-content-left ul li {
+    padding: 4px 10px;
+    line-height: 1.6;
+}
+
+.admin-content-left ul li.active {
+    background-color: #14668f;
+    border-radius: 4px;
+}
+
+.admin-content-left ul ul li.active a {
+    color: white;
+}
+
+.admin-content-left ul ul {
+    margin-left: 10px;
+}
+
+.admin-content-right {
+    border-top: 2px solid rgb(33, 185, 236);
+    width: 83%;
+    padding: 20px 8px 40px 8px;
+    margin-left: auto;
+    background-color:  #F0F2F5;;
+}
+
+.admin-content-right-wrapper {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+/*************** category__add ***************/
+.admin-content-right input, select {
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+
+.admin-content-right button {
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background: brown;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.admin-content-right button:hover {
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+/*************** category__list ***************/
+.admin-content-right table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.admin-content-right table th, td {
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+#loading img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

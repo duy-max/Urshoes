@@ -1,0 +1,48 @@
+.order-success {
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+.order-success .icon-success {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    position: relative;
+  }
+.order-success .icon-success i {
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.order-success h1 {
+    color: rgb(89, 138, 17);
+  }
+.order-success p {
+    line-height: 1.7;
+    font-size: 18px;
+  }
+.order-success .message-thankyou {
+    margin-top: 20px;
+  }
+.order-success a {
+    margin-top: 20px;
+  }
+
+.btn-continue {
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 18px;
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+}
+.btn-continue:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
